@@ -26,9 +26,9 @@ jQuery(document).ready(function() {
   var sentence5 = reverse(sentence4);
 
   jQuery("#original").click(function() {
-    alert(sentence);
+    document.getElementById("demo").innerHTML = sentence;
   });
   jQuery("#encoded").click(function() {
-    alert(sentence5);
+    document.getElementById("demo").innerHTML = sentence5;
   });
 });
